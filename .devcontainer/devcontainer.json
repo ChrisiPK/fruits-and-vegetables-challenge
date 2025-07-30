@@ -1,5 +1,5 @@
 {
-    "name": "PHP 8.0 and PostgreSQL 17.5",
+    "name": "PHP",
     "dockerComposeFile": "docker-compose.yml",
     "service": "devcontainer",
     "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}"
