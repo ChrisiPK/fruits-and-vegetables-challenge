@@ -36,7 +36,7 @@ class ReadProduceCommand extends Command
 
         $processedItems = $this->produceService->loadProduceData($parsed);
 
-        $output->writeln("Successfully loaded $processedItems of produce data!");
+        $output->writeln("Successfully loaded $processedItems items of produce data!");
 
         return Command::SUCCESS;
     }
