@@ -16,6 +16,13 @@ abstract class Produce
     #[ORM\Column]
     protected ?int $quantity = null;
 
+    public function setId($id): static
+    {
+        $this->id = $id;
+
+        return $this;
+    }
+
     public function getId(): ?int
     {
         return $this->id;
